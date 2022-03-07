@@ -106,6 +106,7 @@ int tab(int num1){
 }
 
 //3
+
 int pari(int num1){
     cout<<"\>>Ingrese un numero: "<<endl;
 
