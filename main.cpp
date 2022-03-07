@@ -97,5 +97,12 @@ int facto(int num1){
     else if (num1>1)
         return result=num1*facto(num1-1);
 }
+//2
+int tab(int num1){
+
+    for(int i=1; i<=10; i++){
+        cout<<num1<<" * "<<i<<" = "<<num1*i<<endl;
+    }
+}
 
 
