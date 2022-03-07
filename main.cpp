@@ -106,7 +106,6 @@ int tab(int num1){
 }
 
 //3
-
 int pari(int num1){
     cout<<"\>>Ingrese un numero: "<<endl;
 
@@ -129,3 +128,38 @@ int pari(int num1){
     prom=sumi/ximp;
 }
 
+//4
+int work(int num1){
+    const string laboY="\nDIA LABORAL";
+    const string laboN="\nDIA DE DESCANSO";
+    switch(num1){
+        case 1:
+            cout<<"\nOww El peor dia";
+            cout<<laboY<<endl;
+            break;
+        case 2:
+            cout<<laboY<<endl;
+            break;
+        case 3:
+            cout<<laboY<<endl;
+            break;
+        case 4:
+            cout<<laboY<<endl;
+            break;
+        case 5:
+            cout<<laboY<<endl;
+            break;
+        case 6:
+            cout<<laboN<<endl;
+            break;
+        case 7:
+            cout<<laboN<<endl;
+            break;
+        default:
+            cout<<"\n Opcion Invalida"<<endl;
+            break;
+
+    }
+    return 0;
+
+}
