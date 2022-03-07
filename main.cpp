@@ -163,3 +163,18 @@ int work(int num1){
     return 0;
 
 }
+//5
+int bank(int ){
+    intento=1;
+    succ=0;
+    printf("Introduzca el pin: "); gets(pass); printf("\n");
+    if (strcmp(pass,contrasena)==0) succ=1;
+    while ((succ==0)&&(intento<3)){
+        intento++;
+        printf("Contrasena incorrecta. %i intento: ", intento); gets(pass); printf("\n");
+        if (strcmp(pass,contrasena)==0) succ=1;
+    }
+    if (succ==0) printf("Se han excedido el numero de intentos.");
+    else{
+        printf("BIENVENIDO A SUSY BANK");}
+    return 0;}
