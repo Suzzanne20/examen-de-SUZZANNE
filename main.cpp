@@ -105,4 +105,26 @@ int tab(int num1){
     }
 }
 
+//3
+int pari(int num1){
+    cout<<"\>>Ingrese un numero: "<<endl;
+
+    for(int c=0; c<10; c++){
+        cout << "(" << c + 1 << "/10):   >> ";
+        cin>>num1;
+        if(num1 % 2==0)
+            xpar=xpar+1;
+        else
+            ximp=ximp+1;
+
+        if(num1 % 2==0)
+            sump=sump+num1;
+
+        else
+            sumi=sumi+num1;
+    }
+
+    suma=sump+sumi;
+    prom=sumi/ximp;
+}
 
